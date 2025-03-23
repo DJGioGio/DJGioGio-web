@@ -1,0 +1,12 @@
+a {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8px;
+    margin: auto;
+    padding: 9px;
+    color: aqua;
+    max-width: fit-content;
+    position:absolute;
+    font-size: 17px;
+    text-decoration: none;
+}
