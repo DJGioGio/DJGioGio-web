@@ -9,4 +9,10 @@ a {
     position:absolute;
     font-size: 17px;
     text-decoration: none;
+    background-color: rgb(16, 34, 66);
+}
+
+a:hover {
+    transition-duration: 0.4s;
+    background-color: blue;
 }

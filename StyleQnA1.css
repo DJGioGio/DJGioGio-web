@@ -1,4 +1,157 @@
-div {
+@keyframes bg-colour {
+    0%{
+        background: rgb(8, 32, 32);
+    }
+
+    50%{
+        background: rgb(17, 56, 33);
+    }
+
+    100%{
+        background: rgb(8, 32, 32)
+    }
+}
+
+body {
+    animation: bg-colour 60s infinite;
+}
+
+
+@keyframes bg-borderrr {
+    0%{
+        background-position: 0px;
+    }
+
+    100%{
+        background-position: 1000px;
+    }
+}
+
+h1 {
+    text-align: center;
+    font-size: 52px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h1:hover {
+    color: rgb(4, 190, 113);
+    transition-duration: 0.3s;
+    font-size: 55px;
+}
+
+h3 {
+    height: 30px;
+    font-size: 28px;
+    margin: 0px;
+    color: rgb(125, 255, 212)
+}
+
+.center-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    width: auto;
+}
+
+hr {
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+p {
+    margin-left: 18px;
+    margin-right: 18px;
+    font-size: 16px;
+}
+
+a {
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+.b-big {
+    font-size: 20px;
+}
+
+.b-big:hover {
+    transition-duration: 0.2s;
+    color: cadetblue;
+    font-size: 22px;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(53, 199, 199);
+}
+
+.button {
+    font-size: 24px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    border: 2px;
+    text-align: center;
+    border-style: solid;
+    width: auto;
+    background: rgb(16, 34, 66);
+    display: block;
+    cursor: pointer;
+    align-items: left;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.button:hover {
+    font-size: 30px;
+    background: rgb(30, 62, 117);
+    transition: 0.25s;
+}
+
+.audioo {
+    width: 100%;
+}
+
+.link:hover {
+    transition-duration: 0.4s;
+    font-size: 18px;
+    color: rgb(141, 141, 255);
+}
+
+h3:hover {
+    transition-duration: 0.4s;
+    font-size: 30px;
+}
+
+.center-logo:hover {
+    transition: 0.3s;
+    transform: scale(1.05);
+}
+
+hr {
+    max-width: 920px;
+}
+
+.social {
+    height: 64px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.social:hover {
+    transform: scale(1.1);
+    transition-duration: 0.24s;
+}
+
+.boxes {
     width: 720px;
     height: 99%;
     margin: auto;
@@ -7,12 +160,9 @@ div {
     border-width: 2px;
     border-radius: 8px;
     border-color: rgb(255, 255, 255);
-    
-}
-
-h3 {
-    height: 24px;
-    font-size: 28px;
-    margin: 0px;
-    color: rgb(125, 255, 212)
+    background: linear-gradient(to right,
+    rgb(10, 41, 41) 0%, rgb(17, 66, 66) 50%, rgb(17, 66, 66) 85%, rgb(10, 41, 41) 100%
+    );
+    background-size: 1000px 100px;
+    animation: bg-borderrr 10s linear infinite ; 
 }
