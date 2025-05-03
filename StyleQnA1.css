@@ -195,3 +195,38 @@ hr {
     transition-duration: 0.4s;
     background-color: blue;
 }
+
+.vyx {
+    height: 128px;
+}
+
+.vyx:active {
+    transition-duration: all 0s;
+    transform: scale(1.2);
+}
+
+.vyx:active:after {
+    transition: 0s;
+    transform: scale(1);
+}
+
+.boxes2 {
+    border: 2px;
+    border-style: solid;
+    border-radius: 8px;
+    animation: boxes2bg linear 10s infinite;
+}
+
+@keyframes boxes2bg {
+    0%{
+        background: #280424;
+    }
+
+    50%{
+            background: #4d0c45;
+    }
+
+    100%{
+        background: #280424;
+}
+}
