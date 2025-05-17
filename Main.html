@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+    <html class="funny-cursor bg1">
+        <link rel="stylesheet" href="details1.css">
+        
+        <body>
+
+            <div id="splash" onclick="start()">
+                <p style="font-size: 50px;">Welcome!<br>Click anywhere to start
+                <br><br>(Music will automatically start playing after clicking).</p>
+            </div>
+
+        <div class="part1button bgbox">
+            <a href="https://djgiogio.github.io/DJGioGio-web/main">HOME</a>
+            <a href="https://djgiogio.github.io/DJGioGio-web/extras">EXTRAS</a>
+            <a href="https://djgiogio.github.io/DJGioGio-web/more">MORE</a>
+        </div>
+
+        <audio id="bgm" src="Hip Shop - Toby Fox (youtube).mp3" loop></audio>
+
+        <div class="part1 bgbox">
+            <img src="DJ GioGio Logo (White).png" style="width: 250px;">
+            <h1>WELCOME</h1>
+            <div class="muteNunmute">
+                <button onclick="enableMute()" type="button"><a class="funnybutton">MUTE BGM
+                </a></button>
+                <button onclick="disableMute()" type="button"><a class="funnybutton">UNMUTE BGM
+                </a></button>
+            </div>
+                <div class="socialbuttons centerhover">
+                <h1><a href="https://x.com/DJ_GioGio_Real">Twitter</a></h1>
+                <h1><a href="https://www.youtube.com/@DJGioGio">YouTube</a></h1>
+                <h1><a href="https://soundcloud.com/djgiogio2022">Soundcloud</a></h1>
+                </div>
+            <p class="left">My name's GioGio (Also known as: DJ GioGio, Mattia, MattySfero)
+            <br>I'm a 18 years old content creator with ADHD and the IQ of 3.1415926535-...
+            <br><br>I also like to do a ton of random stuff cuz I'm very, VERY silly :3 <br>
+            I make a ton of music, mostly <b style="color: yellow;">Uptempo Hardcore</b> and
+            <b style="color: yellow;">J-Core (Melodic Speedcore)</b> above
+            <b style="color: yellow;" id="counter"></b>BPM!!!
+            <br>I make some cool stuff such as Roblox Renders + Animations in Roblox Studio!</p>
+            <br><br><h1>ABOUT ME (Music)</h1>
+            <p class="left">
+            I started making EDM music since 2021, I often published my
+            tracks on Speedcore Network from 2021 to 2023,
+            gaining a ton of attention and support over time, I often post my music on
+            Soundcloud, YouTube and now also on Spotify too (+ any other music streaming service),
+            I started making music in FL Studio Mobile from 2021 to 2022 and moved on to
+            FL Studio 20 in 2022 (Currently using FL Studio 2024), I often make experimental
+            music when I feel like it, I also go by different aliases (such as
+            MattySfero and Джонн Дестро), MattySfero is for EDM (in general)
+            and also chaotic music (Chaotic Ambient), Джонн Дестро is for
+            Vent Music (Mostly Noise + Agressive Extratone/Hypertone).</p>
+            <br><br><h1>FOLLOW MY GIRLFRIEND!!</h1><p>(cuz she's peak + awesome
+                and also VERY CUTE!! :3)</p>
+
+            <div class="socialbuttons">
+                <h1><a href="https://x.com/silly_vyxia">Twitter</a></h1>
+                <h1><a href="https://vyxia.site/">Website</a></h1>
+            </div>
+            <h2>Click on Vyxia to pet her!!</h2>
+            <button onclick="displaycount()" class="goober"><a>
+                <img src="vyxiapfp.png" style="height: 100px;"></a> 
+            </button></button>
+            <h3>Pet counter:</h3>
+            <p id="vyxia" style="font-size: 128px; margin: auto;"> 0 </p>
+            <br>
+
+        </div>
+        <p class="smalluselesstext">DJ GIOGIO, 2025 - ALL RIGHTS ARE RESERVED.
+        </p>
+
+        <script src=bgm.js></script>
+        <script src="vyxiaclickcounter.js"></script>
+        <script src="slowbpmcounter.js"></script>
+
+        </body>
+    </html>

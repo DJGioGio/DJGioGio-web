@@ -1,0 +1,179 @@
+.part1 {
+    text-align: center;
+    max-width: 680px;
+    margin: auto;
+    margin-top: 32px;
+    font-family: Fixedsys;
+
+    border-style: solid;
+    text-decoration: none;
+
+    padding: 18px;
+    letter-spacing: 1px;
+}
+
+.funny-cursor{
+        cursor: url(colobthree.cur), auto;
+}
+
+@font-face {
+    font-family: Fixedsys;
+    src: url(FSEX300.ttf);
+}
+
+.left {
+    text-align: left;
+}
+
+h1{
+    font-size: 48px;
+    text-decoration: solid;
+}
+
+p {
+    font-size: 18px;
+}
+
+html {
+    background: black;
+    color: white;
+}
+
+.part1button {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 32px;
+    font-family: Fixedsys;
+    border-style: solid;
+    text-decoration: none;
+    padding: 18px;
+    letter-spacing: 2px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-start;
+    
+    font-size: 48px;
+}
+
+.flick {
+    opacity: 1;
+    animation-name: flick;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes flick {
+
+    0%{
+        opacity: 1;
+    }
+
+    50%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: aqua;
+}
+
+.dark {
+    background-color: black;
+}
+
+.bg1 {
+    background: linear-gradient(0deg,rgba(0, 0, 0, 1) 0%, rgba(37, 62, 92, 1) 100%);;
+}
+
+.bgbox {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.socialbuttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-start;
+}
+
+button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.goober {
+    transform: scale(1);
+    transition: 0.1s;
+}
+
+.goober:active {
+    transform: scale(1.2);
+}
+
+#splash {
+    position: fixed; top: 0; left: 0; z-index: 999; width: 100vw; height: 100vh;
+
+    display: flex;
+    align-items: center; justify-content: center;
+
+    font-size: 56px;
+    font-family: Fixedsys;
+    background-color: black;
+    text-align: center;
+}
+
+#splash.hide {
+    opacity: 0; visibility: hidden;
+    transition: all 0.00000001s;
+}
+
+.funnybutton {
+    border: 4px;
+    border-style: solid;
+    font-family: Fixedsys;
+    margin: auto;
+    font-size: 24px;
+    padding: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-start;
+    background: black;
+}
+
+.centerhover {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-start;
+    margin: auto;
+}
+
+.smalluselesstext {
+    font-family: Fixedsys;
+    font-size: 12px;
+    text-align: center;
+}
+
+.boxedcenter {
+    padding: 100px;
+}
+
+.imageborder {
+    border: 12px;
+    border-style: solid;
+    color: white;
+}
