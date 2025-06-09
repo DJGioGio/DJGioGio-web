@@ -26,7 +26,7 @@
 }
 
 h1{
-    font-size: 48px;
+    font-size: 46px;
     text-decoration: solid;
 }
 
@@ -82,7 +82,7 @@ html {
 a {
     text-decoration: none;
     color: yellow;
-    transition: 0.5s;
+    transition: 0.4s;
 }
 
 a:hover {
@@ -93,8 +93,12 @@ a:hover {
     background-color: black;
 }
 
+.bg2 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(37, 62, 92, 1) 75%);
+}
+
 .bg1 {
-    background: linear-gradient(0deg,rgba(0, 0, 0, 1) 0%, rgba(37, 62, 92, 1) 100%);;
+    background: linear-gradient(0deg, rgba(255, 0, 255, 1) 0%, rgba(0, 0, 0, 1) 35%, rgba(37, 62, 92, 1) 75%);
 }
 
 .bgbox {
@@ -118,11 +122,12 @@ button {
 
 .goober {
     transform: scale(1);
-    transition: 0.1s;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.1s;
 }
 
 .goober:active {
     transform: scale(1.2);
+    filter: brightness(1.3);
 }
 
 #splash {
@@ -131,7 +136,7 @@ button {
     display: flex;
     align-items: center; justify-content: center;
 
-    font-size: 56px;
+    font-size: 46px;
     font-family: Fixedsys;
     background-color: black;
     text-align: center;
@@ -139,7 +144,8 @@ button {
 
 #splash.hide {
     opacity: 0; visibility: hidden;
-    transition: all 0.00000001s;
+    transform: scale(1.5);
+    transition: all 0.5s;
 }
 
 .funnybutton {
@@ -176,4 +182,38 @@ button {
     border: 12px;
     border-style: solid;
     color: white;
+}
+
+.pawesomegirl {
+    background-color: rgba(255, 0, 255, 0.1);
+    border: 16px;
+    border-style: solid;
+    border-color: rgba(255, 0, 255, 0.1);
+    font-family: ComicSansMS;
+}
+
+.yellowtored {
+    animation-name: yellowtored;
+    animation-duration: 600s;
+}
+
+@keyframes yellowtored {
+
+    0% {
+        color: rgb(255, 255, 255);
+    }
+
+    10% {
+        color: red;
+    }
+
+    100% {
+        color: red;
+    }
+    
+}
+
+@font-face {
+    font-family: ComicSansMS;
+    src: url(ComicSansMS.ttf);
 }
