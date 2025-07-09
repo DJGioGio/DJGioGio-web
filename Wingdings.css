@@ -1,0 +1,10 @@
+@font-face {
+    font-family: Wingdings;
+    src: url(/wingding.ttf)
+}
+
+.wingdings {
+    font-family: Wingdings;
+    color: aliceblue;
+    font-size: 12px;
+}
