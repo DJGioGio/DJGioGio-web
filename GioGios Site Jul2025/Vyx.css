@@ -1,0 +1,18 @@
+@font-face {
+    font-family: ComicSansMS;
+    src: url(Comic\ Sans\ MS.ttf)
+}
+
+.vyx {
+    font-family: ComicSansMS;
+    font-size: 24px;
+    text-align: center;
+}
+
+.vyxia {
+    transition: 0.85s ease 0s;
+}
+
+.vyxia:hover {
+    transform: rotateZ(360deg) scale(1.25);
+}
