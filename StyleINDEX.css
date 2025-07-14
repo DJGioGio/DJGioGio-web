@@ -11,6 +11,12 @@
     margin-right: auto;
 }
 
+/* ANOTHER Small CSS class to center any images */
+.imgcenter2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 /* A portion of the page that includes the introduction of myself and much more */
 .stage1 {
     text-align: center;
