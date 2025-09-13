@@ -1,6 +1,6 @@
 .flashing {
     color: white;
-    animation: flashing 1s infinite step-start;
+    animation: flashing 2s infinite step-start;
 }
 
 @keyframes flashing {
